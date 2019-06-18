@@ -13,16 +13,19 @@ class App extends Component {
     }
   }
 
-  onSearchChange = (e) => {
-    this.setState({searchField:e.target.value})
-  }
-
-  render(){
+  componentDidMount(){
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(json => {
         this.setState({Robots:json})
       })
+  }
+
+  onSearchChange = (e) => {
+    this.setState({searchField:e.target.value})
+  }
+
+  render(){
 
       const filteredRobots = this.state.Robots.filter(robot => {
         return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase());
