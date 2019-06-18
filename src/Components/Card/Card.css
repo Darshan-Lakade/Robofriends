@@ -1,0 +1,49 @@
+.Card {
+  background-color: #144866;
+  border: 2px solid black;
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  cursor: pointer;
+}
+
+.Card h3, .Card h4 {
+  padding: 0px 10px;
+  color: aliceblue;
+}
+
+.Card h3 .name, .Card h4 .name {
+  color: #ec4d90;
+  font-size: 90%;
+}
+
+.Card h3 .email, .Card h4 .email {
+  text-decoration: underline;
+  color: #7ca8d1;
+  font-size: 90%;
+}
+
+.Card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.roboImages {
+  background-color: #dee6e5;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Card h3 {
+    font-size: 120%;
+  }
+  .Card h4 {
+    font-size: 100%;
+  }
+}
+/*# sourceMappingURL=Card.css.map */
