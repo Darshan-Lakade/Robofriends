@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Robofriends/./static/css/main.6c94881d.chunk.css",
+    "main.js": "/Robofriends/./static/js/main.a5a73ca3.chunk.js",
+    "main.js.map": "/Robofriends/./static/js/main.a5a73ca3.chunk.js.map",
+    "runtime~main.js": "/Robofriends/./static/js/runtime~main.d6ba24c2.js",
+    "runtime~main.js.map": "/Robofriends/./static/js/runtime~main.d6ba24c2.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/Robofriends/./static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/Robofriends/./static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/Robofriends/./index.html",
+    "precache-manifest.62d1e5d30e52f02fb5bb271cca32594a.js": "/Robofriends/./precache-manifest.62d1e5d30e52f02fb5bb271cca32594a.js",
+    "service-worker.js": "/Robofriends/./service-worker.js",
+    "static/css/main.6c94881d.chunk.css.map": "/Robofriends/./static/css/main.6c94881d.chunk.css.map"
+  }
+}
