@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+
+// Variables
+
+$NotoSerifFont : 'Noto Serif TC';
+
+body{
+    background:linear-gradient(to right, rgb(29, 144, 148), rgb(15, 94, 114));
+    font-family: $NotoSerifFont , serif;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+$MeriendaFont : 'Merienda';
+$DarkGreenColor : rgb(19, 53, 70);
+
+.header{
+    text-align: center;
+    font-family: $MeriendaFont , cursive;
+    font-size: 3rem;
+    color: $DarkGreenColor;
+    font-weight: bold;
+}

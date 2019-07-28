@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,mBAAmB;CAC/B;;AAED,AAAA,YAAY,CAAA;EACR,OAAO,EAAC,IAAI;EACZ,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "SearchList.scss"
+    ],
+    "names": [],
+    "file": "SearchList.css"
+}
